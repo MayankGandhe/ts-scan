@@ -4,7 +4,7 @@
 - [Create an API Key on TrustSource](#Create-an-API-Key-on-TrustSource)
 - [Azure DEVOPS Pipeline Breakdown](#AZURE-DEVOPS-Pipeline-Breakdown)
 - [Prerequisites](#Prerequisites)
-- [Setup](#Setup)
+- [Setting Up Secret Variables](#Setting-Up-Secret-Variables)
 - [Pipeline Code](#Pipeline-Code) 
 
 
@@ -66,8 +66,6 @@ Before running this pipeline, ensure that the following requirements are met:
 ## Setting Up Secret Variables
 
 In order to securely provide the `API_KEY` used in the pipeline, you'll need to set it as a secret variable in your Azure DevOps project. Follow these steps:
-
-### Steps to Add a Secret Variable:
 
 1. **Navigate to Azure DevOps Project:**
    Go to your Azure DevOps project where the pipeline is defined.
