@@ -1,8 +1,14 @@
 # Azure Pipeline Documentation
 
-## Overview
+## Steps to Impelement ts-scan on Azure DevOps
+- [Create an API Key on TrustSource](#Create-an-API-Key-on-TrustSource)
+- [Azure DEVOPS Pipeline Breakdown](#AZURE-DEVOPS-Pipeline-Breakdown)
+- [Prerequisites](#Prerequisites)
+- [Setup](#Setup)
+- [Pipeline Code](#Pipeline-Code) 
 
-## How to Create an API Key on TrustSource
+
+## Create an API Key on TrustSource
 
 To generate an API key for use in the Azure DevOps pipeline, follow these steps:
 
