@@ -8,6 +8,3 @@ COPY ./ts_scan ./ts_scan
 COPY ./ts-scan ./_config.yml ./setup.py ./setup.cfg ./LICENSE ./MANIFEST.in ./
 
 RUN pip install ./
-
-ENTRYPOINT ["ts-scan"]
-CMD []
